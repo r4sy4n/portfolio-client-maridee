@@ -1,0 +1,272 @@
+/* xs */
+/* @media only screen and (min-width: 475px) {
+
+} */
+
+/* sm */
+/* @media only screen and (min-width: 640px) {
+
+} */
+
+/* md */
+/* @media only screen and (min-width: 768px) {
+
+} */
+
+/* lg */
+/* @media only screen and (min-width: 1024px) {
+
+} */
+
+/* xl */
+/* @media only screen and (min-width: 1280px) {
+
+} */
+
+/* 2xl */
+/* @media only screen and (min-width: 1536px) {
+
+} */
+
+:root {
+  /* color reference Tailwind Css */
+  --clr-dark: #080b12;
+  --clr-light: #f8fafc;
+  --clr-slate500: #64748b;
+  --clr-slate600: #475569;
+  --clr-slate800: #1e293b;
+  --clr-orange: #f97316;
+  --clr-amber: #d97706;
+  --clr-rose: #dc2626;
+  --clr-background: #f3e8ff;
+  
+
+  /* orange rgb(249, 115, 22) */
+  /* amber rgb(252, 211, 77)  */
+
+  /* sizes Tailwind Css */
+  --size-xxs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
+  --size-7xl: 4.5rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+  --size-10xl: 10rem;
+}
+
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Satoshi', sans-serif;
+  background-color: var(--clr-light);
+  color: var(--clr-dark)
+}
+.light-mode{
+    --clr-light: #080b12;
+    --clr-dark: #F3E8FF;
+    --clr-slate400: #9ca3af;
+    --clr-slate600: #9ca3af;
+    --clr-slate800: #9ca3af;
+    --clr-background: #1e293b;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+h1 {
+  color: var(--clr-dark);
+  font-size: var(--size-4xl);
+}
+
+h2 {
+  color: var(--clr-slate800);
+  font-size: var(--size-2xl);
+}
+
+h3 {
+  color: var(--clr-slate600);
+  font-size: var(--size-base);
+}
+
+p {
+  color: var(--clr-slate500);
+  font-size: var(--size-sm);
+}
+span {
+  color: var(--clr-orange);
+}
+a {
+  color: var(--clr-slate800);
+  text-decoration: none;
+  font-size: var(--size-base);
+}
+.btn {
+  display: inline-block;
+  border: 1px solid var(--clr-orange);
+  /* font-weight: 600; */
+  text-decoration: none;
+  background-color: var(--clr-orange);
+  color: var(--clr-light);
+  padding: 0.6em 1.5em;
+  border-radius: 3px;
+  box-shadow: 0 10px 20px rgba(249, 115, 22, 0.5), 0 6px 6px rgba(249, 115, 22, 0.5), 0 0 100px -10px var(--clr-orange);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 28px rgba(249, 115, 22, 0.25),
+    0 10px 10px rgba(249, 115, 22, 0.22),
+    0 0 120px -10px var(--clr-orange);
+  color: var(--clr-light);
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.section {
+  margin-top: 5rem;
+}
+.menu {
+  display: none;
+}
+/* .sticky{
+  position: sticky;
+  top: 0;
+} */
+/* header{
+
+} */
+.active{
+  color: #f97316;
+}
+
+/* xs */
+@media only screen and (min-width: 475px) {
+  h1 {
+    font-size: var(--size-5xl);
+  }
+
+  h2 {
+    font-size: var(--size-2xl);
+  }
+
+  h3 {
+    font-size: var(--size-base);
+  }
+
+  p {
+    font-size: var(--size-base);
+  }
+
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* sm */
+@media only screen and (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* md */
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* lg */
+@media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  h1 {
+    font-size: var(--size-6xl);
+  }
+
+  h2 {
+    font-size: var(--size-3xl);
+  }
+
+  h3 {
+    font-size: var(--size-lg);
+  }
+
+  p {
+    font-size: var(--size-lg);
+  }
+
+  .section {
+    margin-top: 10rem;
+  }
+}
+
+/* xl */
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+
+  h1 {
+    font-size: var(--size-7xl);
+  }
+
+  h2 {
+    font-size: var(--size-5xl);
+  }
+
+  h3 {
+    font-size: var(--size-xl);
+  }
+
+  p {
+    font-size: var(--size-xl);
+  }
+}
+
+/* 2xl */
+@media only screen and (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
