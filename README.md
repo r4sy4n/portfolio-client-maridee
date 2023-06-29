@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Client's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Client's Portfolio repository! This repository contains the source code for a dynamic website developed using Create React App. The website showcases my skills in React, HTML, CSS, and JavaScript.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+The Client's Portfolio website includes the following features:
+<ul>
+<li>Home: A visually appealing landing page that introduces the client and provides an overview of their work.</li>
+<li>About: A section where the client can showcase their background, skills, and experiences.</li>
+<li>Services: A section to showcase the client's technical skills and areas of expertise that the client is offering.</li>
+<li>Projects: A portfolio gallery highlighting the client's notable projects with descriptions and images.</li>
+<li>Contact: A contact form for visitors to reach out to the client.</li>
+</ul>
 
-### `npm start`
+## Repository Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The repository is structured as follows:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+|- src/               # Directory for the frontend code (Create React App)</br>
+|  |- components/     # React components and frontend code</br>
+|  |- assets/         # Images, icons, and other assets used in the website</br>
+|- public/            # Public assets and index.html file</br>
+|- package.json       # Project dependencies and scripts</br>
+|- README.md          # README file</br>
 
-### `npm test`
+Feel free to explore the code and make any modifications or improvements as needed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To run the Client's Portfolio website locally, follow these steps:
+<ul>
+<li>Clone the repository or download the source code.</li>
+<li>Open a terminal and navigate to the project's root directory.</li>
+<li>Install the dependencies:</li>
+  <ul>
+<li>Run npm install to install the necessary packages.</li>
+    </ul>
+<li>Run the app:</li>
+                   <ul>
+<li>Use the command npm start to start the application.</li>
+<li>The app will be accessible at http://localhost:3000.</li>
+                     </ul>
+</ul>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
+<ul>
+<li>React</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Credits
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This portfolio was developed by Russell Ramiro for the client to use for personal purposes and it is also to showcase programming skills and knowledge of web development technologies.
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project is licensed under the MIT License. Feel free to use the code as a reference or template for your own portfolio website.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contact
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+If you have any questions, suggestions, or just want to say hello, feel free to reach out. You can find my contact information within the Client's Portfolio website. Or visit my portfolio website here: https://russellramiro.netlify.app/
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Thank you for visiting the Client's Portfolio repository!
 
-## Learn More
+## Live Site
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+https://marideeramiro.vercel.app/
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
