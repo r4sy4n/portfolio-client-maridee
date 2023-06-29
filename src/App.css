@@ -166,15 +166,18 @@ a {
 .menu {
   display: none;
 }
-/* .sticky{
-  position: sticky;
-  top: 0;
-} */
-/* header{
-
-} */
 .active{
   color: #f97316;
+}
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: var(--clr-orange);
+  transform-origin: 0%;
+  z-index: 2;
 }
 
 /* xs */

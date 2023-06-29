@@ -1,10 +1,10 @@
 import React from 'react';
 import Wrapper from '../assets/wrappers/Home';
-// import Reveal from './Reveal';
+import Reveal from './Reveal';
 
 const Hero = () => {
   return (
-    // <Reveal>
+    <Reveal>
       <Wrapper id='home' className='hero'>
         <div className='container'>
           <h1 className='title'>Maximize Your Full Potential</h1>
@@ -13,7 +13,7 @@ const Hero = () => {
           <a href="#contact" className='btn'>Contact Me Now</a>
         </div>
       </Wrapper>
-    // </Reveal>
+    </Reveal>
   )
 }
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Wrapper from '../assets/wrappers/Navbar';
 import Logo from './Logo';
-// import Reveal from './Reveal';
+import Reveal from './Reveal';
 
 const Navbar = () => {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
@@ -58,7 +58,7 @@ const Navbar = () => {
   }
 
   return (
-    // <Reveal>
+    <Reveal>
       <Wrapper id='navbar' className='container'>
         <a href='index.html' className='logo'>Maridee <span>Ramiro</span></a>
         {isVisible && ( <a href='index.html'>
@@ -96,7 +96,7 @@ const Navbar = () => {
         </button>)}
         
       </Wrapper>
-    // </Reveal>
+    </Reveal>
   )
 }
 
